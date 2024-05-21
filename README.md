@@ -44,5 +44,17 @@ WiFi Credentials;
 WIFI_SSID						"ardupilot123"
 WIFI_PWD						"ardupilot123"
 
+### Software required to upload files  
+ESP32 Flash Download tool  
+https://www.espressif.com/en/support/download/other-tools  
+#### Flash Download address  
+
+0x1000 bootloader.bin  
+
+0x10000 ardupilot.bin  
+
+0x8000 partition-table.bin
+
+
 
 
